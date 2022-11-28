@@ -26,10 +26,16 @@ function App() {
     })
     .then(resp => resp.json())
     .then(data => setPlants([...plants, data]))
-    
-    
-    
-    console.log(plant)
+  }
+
+  function handleDelete(id) {
+    fetch(`http://localhost:3004/plants/${id}`, {
+      method: "DELETE"})
+      .then(resp => resp.json())
+      .then(() => {
+        const updatedPlants = plants.filter( plant => plant.id !== id )
+        setPlants(updatedPlants)
+      })
   }
 
 
@@ -41,7 +47,7 @@ function App() {
           <About/>
         </Route>
         <Route exact path="/">
-          <Home plants={plants}/>
+          <Home plants={plants} handleDelete={handleDelete}/>
         </Route>
         <Route exact path="/new">
           <New addPlant={addPlant}/>
