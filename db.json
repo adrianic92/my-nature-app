@@ -1,7 +1,32 @@
 {
-    "plants": [
-        {"id": 1, "name": "Rose", "image": "https://images.pexels.com/photos/237382/pexels-photo-237382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "fact": "YOU CAN EAT ROSES. Who knew looking pretty in a vase wasn't the only way to use roses in the kitchen? Their petals are edible and rose water (made from soaking the petals in water) is often added to jellies or jams, or is used as flavoring in Indian and Chinese dishes. Roses also grow a berry-shaped fruit called rose hips. The fruit can be orange, red, dark purple, or even black. Rose hips are packed with vitamin C and can be used in cocktails or dried to create a refreshing tea.", "decription": "Roses are erect, climbing, or trailing shrubs, the stems of which are usually copiously armed with prickles of various shapes and sizes, commonly called thorns. The leaves are alternate and pinnately compound (i.e., feather-formed), usually with oval leaflets that are sharply toothed."},
-        {"id": 2, "name": "Sunflower", "image": "https://images.pexels.com/photos/33044/sunflower-sun-summer-yellow.jpg", "fact": "THEY TRACK THE SUN. Sunflowers plants display a behavior called heliotropism. The flower buds and young blossoms will face east in the morning and follow the sun as the earth moves during the day.", "decription": "The common sunflower (H. annuus) is an annual herb with a rough hairy stem 1-4.5 metres (3-15 feet) high and broad, coarsely toothed, rough leaves 7.5-30 cm (3-12 inches) long arranged in spirals. The attractive heads of flowers are 7.5-15 cm wide in wild specimens and often 30 cm or more in cultivated types. The disk flowers are brown, yellow, or purple, while the petallike ray flowers are yellow."},
-        {"id": 3, "name": "Aloe", "image": "https://images.pexels.com/photos/5684965/pexels-photo-5684965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "fact": "Aloe is a succulent plant that grows in hot, dry climates (Zone 10+). The most common medicinal variety is Aloe vera (barbadensis Miller), which has been clinically shown to have the most nutrients of the over 500 species of aloe throughout the world. It is grown commercially for the health and moisturizing benefits found inside its leaves. The aloe vera plant is one of the most studied herbs in natural medicine. An adult aloe vera plant reaches maturity at 3-4 years and can reach a height of 30 inches with up to 21 leaves.", "decription": "Most members of the genus have a rosette of leaves borne either at ground level or at the end of a stem. The leaves are usually succulent and fleshy and commonly have sharp toothed edges. Certain aloe species retain dense dead leaves around their stems to serve as insulation against the heat of wildfires. The tubular flowers range in colour from white to yellow to red."}
-    ]
+  "plants": [
+    {
+      "id": 1,
+      "name": "Rose",
+      "image": "https://images.pexels.com/photos/237382/pexels-photo-237382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "fact": "YOU CAN EAT ROSES. Who knew looking pretty in a vase wasn't the only way to use roses in the kitchen? Their petals are edible and rose water (made from soaking the petals in water) is often added to jellies or jams, or is used as flavoring in Indian and Chinese dishes. Roses also grow a berry-shaped fruit called rose hips. The fruit can be orange, red, dark purple, or even black. Rose hips are packed with vitamin C and can be used in cocktails or dried to create a refreshing tea.",
+      "decription": "Roses are erect, climbing, or trailing shrubs, the stems of which are usually copiously armed with prickles of various shapes and sizes, commonly called thorns. The leaves are alternate and pinnately compound (i.e., feather-formed), usually with oval leaflets that are sharply toothed."
+    },
+    {
+      "id": 2,
+      "name": "Sunflower",
+      "image": "https://images.pexels.com/photos/33044/sunflower-sun-summer-yellow.jpg",
+      "fact": "THEY TRACK THE SUN. Sunflowers plants display a behavior called heliotropism. The flower buds and young blossoms will face east in the morning and follow the sun as the earth moves during the day.",
+      "decription": "The common sunflower (H. annuus) is an annual herb with a rough hairy stem 1-4.5 metres (3-15 feet) high and broad, coarsely toothed, rough leaves 7.5-30 cm (3-12 inches) long arranged in spirals. The attractive heads of flowers are 7.5-15 cm wide in wild specimens and often 30 cm or more in cultivated types. The disk flowers are brown, yellow, or purple, while the petallike ray flowers are yellow."
+    },
+    {
+      "id": 3,
+      "name": "Aloe",
+      "image": "https://images.pexels.com/photos/5684965/pexels-photo-5684965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "fact": "Aloe is a succulent plant that grows in hot, dry climates (Zone 10+). The most common medicinal variety is Aloe vera (barbadensis Miller), which has been clinically shown to have the most nutrients of the over 500 species of aloe throughout the world. It is grown commercially for the health and moisturizing benefits found inside its leaves. The aloe vera plant is one of the most studied herbs in natural medicine. An adult aloe vera plant reaches maturity at 3-4 years and can reach a height of 30 inches with up to 21 leaves.",
+      "decription": "Most members of the genus have a rosette of leaves borne either at ground level or at the end of a stem. The leaves are usually succulent and fleshy and commonly have sharp toothed edges. Certain aloe species retain dense dead leaves around their stems to serve as insulation against the heat of wildfires. The tubular flowers range in colour from white to yellow to red."
+    },
+    {
+      "name": "Taco",
+      "image": "https://metrolinktrains.com/globalassets/explore/los-angeles/king-taco.png",
+      "fact": "Wang",
+      "description": "Perfume",
+      "id": 4
+    }
+  ]
 }

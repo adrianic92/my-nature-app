@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function New() {
+function New({addPlant}) {
     const [name, setName] = useState("")
     const [image, setImage] = useState("")
     const [fact, setFact] = useState("")
@@ -24,7 +24,14 @@ function New() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(name, image, fact, description)
+        const newPlant = {
+            "name": name, "image": image, "fact": fact, "description": description
+        }
+        addPlant(newPlant)
+        setName("")
+        setImage("")
+        setFact("")
+        setDescription("")
     }
   return (
     <div>

@@ -17,7 +17,19 @@ function App() {
   }, [])
   
   function addPlant(plant) {
-
+    fetch("http://localhost:3004/plants", {
+      method: "POST",
+      headers: {
+        "Content-Type" : "application/json"
+      },
+      body: JSON.stringify(plant)
+    })
+    .then(resp => resp.json())
+    .then(data => setPlants([...plants, data]))
+    
+    
+    
+    console.log(plant)
   }
 
 
@@ -32,7 +44,7 @@ function App() {
           <Home plants={plants}/>
         </Route>
         <Route exact path="/new">
-          <New/>
+          <New addPlant={addPlant}/>
         </Route>
       </Switch>
     </div>

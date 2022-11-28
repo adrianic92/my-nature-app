@@ -5,6 +5,7 @@ function PlantCard({plant}) {
         <div className="gridChild">
             <img className="plantImage" src={plant.image} alt={plant.name} />
             <h2>{plant.name}</h2>
+            <button className="button">🔥Remove🔥</button>
         </div>
     )
 }
