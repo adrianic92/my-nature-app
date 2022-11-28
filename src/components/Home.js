@@ -9,7 +9,7 @@ function Home({plants, handleDelete}) {
         <h1 className="mainChild">Pick a Plant</h1>
         </div>
         <div className="main">
-        <h3 className="mainChild">Click on any of the following plants to learn more about it!</h3>
+        <h3 className="mainChild">Click on any of the following plant images to learn more about the plant :</h3>
         </div>
         <PlantList plants={plants} handleDelete={handleDelete}/>
     </div>

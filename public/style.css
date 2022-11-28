@@ -57,18 +57,28 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 3vh;
+    grid-column-gap: 3vh;
     margin: auto;
 }
 
 .gridChild {
     text-align: center;
+    background-color: rgb(29, 77, 25, 0.5);
+    padding: 3vh;
+    border-radius: 10%;
+    border: rgb(255, 215, 0, 0.5);
+    border-style: solid;
 
 }
 
 .plantImage {
-    max-width: 25vw;
+    max-width: 20vw;
     max-height: 33vh;
     align-items: center;
+    border-radius: 10%;
+    border: rgb(255, 215, 0, 0.5);
+    border-style:dotted;
 }
 
 .form {
