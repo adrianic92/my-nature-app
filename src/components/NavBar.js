@@ -6,17 +6,17 @@ function NavBar() {
     <div className="navDiv">
       <ul className="navBar">
         <li className="link">
-          <Link to="/" exact="true">
-            Home
+          <Link to="/plants">
+            Plants
           </Link>
         </li>
         <li className="link">
-          <Link to="/about" exact="true">
+          <Link to="/about">
             About
           </Link>
         </li>
         <li className="link">
-          <Link to="/new" exact="true">
+          <Link to="/new">
             Add A Plant
           </Link>
         </li>

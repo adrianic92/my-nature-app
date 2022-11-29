@@ -5,21 +5,21 @@
       "name": "Rose",
       "image": "https://images.pexels.com/photos/237382/pexels-photo-237382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "fact": "YOU CAN EAT ROSES. Who knew looking pretty in a vase wasn't the only way to use roses in the kitchen? Their petals are edible and rose water (made from soaking the petals in water) is often added to jellies or jams, or is used as flavoring in Indian and Chinese dishes. Roses also grow a berry-shaped fruit called rose hips. The fruit can be orange, red, dark purple, or even black. Rose hips are packed with vitamin C and can be used in cocktails or dried to create a refreshing tea.",
-      "decription": "Roses are erect, climbing, or trailing shrubs, the stems of which are usually copiously armed with prickles of various shapes and sizes, commonly called thorns. The leaves are alternate and pinnately compound (i.e., feather-formed), usually with oval leaflets that are sharply toothed."
+      "description": "Roses are erect, climbing, or trailing shrubs, the stems of which are usually copiously armed with prickles of various shapes and sizes, commonly called thorns. The leaves are alternate and pinnately compound (i.e., feather-formed), usually with oval leaflets that are sharply toothed."
     },
     {
       "id": 2,
       "name": "Sunflower",
       "image": "https://images.pexels.com/photos/33044/sunflower-sun-summer-yellow.jpg",
       "fact": "THEY TRACK THE SUN. Sunflowers plants display a behavior called heliotropism. The flower buds and young blossoms will face east in the morning and follow the sun as the earth moves during the day.",
-      "decription": "The common sunflower (H. annuus) is an annual herb with a rough hairy stem 1-4.5 metres (3-15 feet) high and broad, coarsely toothed, rough leaves 7.5-30 cm (3-12 inches) long arranged in spirals. The attractive heads of flowers are 7.5-15 cm wide in wild specimens and often 30 cm or more in cultivated types. The disk flowers are brown, yellow, or purple, while the petallike ray flowers are yellow."
+      "description": "The common sunflower (H. annuus) is an annual herb with a rough hairy stem 1-4.5 metres (3-15 feet) high and broad, coarsely toothed, rough leaves 7.5-30 cm (3-12 inches) long arranged in spirals. The attractive heads of flowers are 7.5-15 cm wide in wild specimens and often 30 cm or more in cultivated types. The disk flowers are brown, yellow, or purple, while the petallike ray flowers are yellow."
     },
     {
       "id": 3,
       "name": "Aloe",
       "image": "https://images.pexels.com/photos/5684965/pexels-photo-5684965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "fact": "Aloe is a succulent plant that grows in hot, dry climates (Zone 10+). The most common medicinal variety is Aloe vera (barbadensis Miller), which has been clinically shown to have the most nutrients of the over 500 species of aloe throughout the world. It is grown commercially for the health and moisturizing benefits found inside its leaves. The aloe vera plant is one of the most studied herbs in natural medicine. An adult aloe vera plant reaches maturity at 3-4 years and can reach a height of 30 inches with up to 21 leaves.",
-      "decription": "Most members of the genus have a rosette of leaves borne either at ground level or at the end of a stem. The leaves are usually succulent and fleshy and commonly have sharp toothed edges. Certain aloe species retain dense dead leaves around their stems to serve as insulation against the heat of wildfires. The tubular flowers range in colour from white to yellow to red."
+      "description": "Most members of the genus have a rosette of leaves borne either at ground level or at the end of a stem. The leaves are usually succulent and fleshy and commonly have sharp toothed edges. Certain aloe species retain dense dead leaves around their stems to serve as insulation against the heat of wildfires. The tubular flowers range in colour from white to yellow to red."
     },
     {
       "name": "Mother-in-Law’s Tongue",
@@ -41,6 +41,20 @@
       "fact": "Lilies have large petals that can be white, yellow, orange, red, purple or pink in color. They can even have freckles! In fact, the Tiger Lily is named for its orange with brown spots.",
       "description": "The true lilies are erect perennial plants with leafy stems, scaly bulbs, usually narrow leaves, and solitary or clustered flowers. The flowers consist of six petal-like segments, which may form the shape of a trumpet, with a more or less elongated tube, as in the Madonna lily (Lilium candidum) and Easter lily (L. longiflorum). Alternatively, the segments may be reflexed (curved back) to form a turban shape, as in the Turk’s cap lily (L. martagon), or they may be less strongly reflexed and form an open cup or bowl shape, as in the wood lily (L. philadelphicum) and goldband lily (L. auratum). The flowers of some species are quite fragrant, and they occur in a wide variety of colours. Plants of most species range in height from 30 to 120 cm (1 to 4 feet); plants of certain species, however, exceed 2.5 metres (8 feet) in height.",
       "id": 6
+    },
+    {
+      "name": "Monstera",
+      "image": "https://images.pexels.com/photos/5858235/pexels-photo-5858235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "fact": "Monstera fruit exists and its delicious In the wild, Monstera Deliciosa has incredibly rich fruit. It tastes like the combination of strawberries, passion fruit, mango, and pineapple. It is so delicious that the Monstera Deliciosa owes its name to it",
+      "description": "Several are grown as popular ornamental foliage plants. Monstera plants are generally climbing and can be terrestrial or epiphytic. They have attractive leathery leaves that are often cut into lobes.",
+      "id": 7
+    },
+    {
+      "name": "Orchid",
+      "image": "https://images.pexels.com/photos/66181/pexels-photo-66181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "fact": "Orchids are the largest family of flowering plants. With more than 25,000 species, there are more orchids on the planet than mammals and birds!",
+      "description": "These nonwoody perennial plants are generally terrestrial or epiphytic herbs (i.e., growing on other plants rather than rooted in soil). Those attached to other plants often are vinelike and have a spongy root covering called the velamen that absorbs water from the surrounding air. Most species manufacture their own food, but some live on dead organic material (saprophytic) or are helped to obtain nourishment by a fungus living in their roots.",
+      "id": 8
     }
   ]
 }

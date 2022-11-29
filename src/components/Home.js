@@ -4,7 +4,7 @@ import PlantList from "./PlantList.js";
 function Home({plants, handleDelete}) {
 
     return (
-    <div>
+    <div className="mainParent">
         <div className="main">
         <h1 className="mainChild">Pick a Plant</h1>
         </div>

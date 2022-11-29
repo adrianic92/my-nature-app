@@ -39,6 +39,10 @@ html {
     padding: 1rem 1rem;
 }
 
+.mainParent {
+    display: block;
+}
+
 .main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -56,10 +60,12 @@ html {
     width: 90%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, 20rem);
     grid-row-gap: 3vh;
     grid-column-gap: 3vh;
     margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .gridChild {
@@ -69,16 +75,17 @@ html {
     border-radius: 10%;
     border: rgb(255, 215, 0, 0.5);
     border-style: solid;
+    height: 20rem;
 
 }
 
 .plantImage {
-    max-width: 20vw;
-    max-height: 33vh;
+    max-width: 15rem;
+    max-height: 10rem;
     align-items: center;
     border-radius: 10%;
     border: rgb(255, 215, 0, 0.5);
-    border-style:dotted;
+    border-style: dotted;
 }
 
 .form {
@@ -88,19 +95,25 @@ html {
     color: white;
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.form label {
     text-align: center;
 }
 
 .formChild {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 1rem auto;
     padding: 1rem;
     max-width: 80vw;
     min-width: 50vw;
-    
+    font-size: larger;    
 }
 
 .long {
-    min-height: 10vh;
+    resize: both;
+    box-sizing: content-box;
+    height: 15vh;
 }
 
 .button {
@@ -120,4 +133,12 @@ html {
 .button:focus {
   box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
   outline: none;
+}
+
+.delete {
+    min-width: 1vw;
+}
+
+.delete:hover {
+    background-color: hsl(0, 93%, 46%);
 }

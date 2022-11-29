@@ -40,10 +40,14 @@ function New({addPlant}) {
         </div>
         <div>
             <form className="form" onSubmit={handleSubmit}>
-                Name:<input type="text" name="name" className="formChild" value={name} onChange={handleNameChange}/>
-                Image URL:<input type="text" name="image" className="formChild" value={image} onChange={handleImageChange}/>
-                Fun Fact:<input type="text" name="fact" className="formChild long" value={fact} onChange={handleFactChange}/>
-                Description:<input type="text" name="description" className="formChild long" value={description} onChange={handleDescriptionChange}/>
+                <label for="name">Name:</label>
+                <input type="text" name="name" className="formChild" value={name} onChange={handleNameChange}/>
+                <label for="image">Image URL:</label>
+                <input type="text" name="image" className="formChild" value={image} onChange={handleImageChange}/>
+                <label for="fact">Fun Fact:</label>
+                <textarea type="text" name="fact" className="formChild long" value={fact} onChange={handleFactChange}/>
+                <label for="description">Description:</label>
+                <textarea type="text" name="description" className="formChild long" value={description} onChange={handleDescriptionChange}/>
                 <button className="formChild button" type="submit">Submit</button>
             </form>
         </div>

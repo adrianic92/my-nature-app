@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import NavBar from "./NavBar";
 import New from './New';
+import PlantDetail from './PlantDetail';
 
 function App() {
 
@@ -46,11 +47,17 @@ function App() {
         <Route exact path="/about">
           <About/>
         </Route>
-        <Route exact path="/">
+        <Route exact path="/plants">
           <Home plants={plants} handleDelete={handleDelete}/>
         </Route>
         <Route exact path="/new">
           <New addPlant={addPlant}/>
+        </Route>
+        <Route path="/plants/:id">
+          <PlantDetail />
+        </Route>
+        <Route path="*">
+          <h1 className='main' style={{justifyContent: "center", alignItems: "center", fontSize: "7rem", textAlign: "center"}}>Oops!!! <br/>404 NOT FOUND! <br/>Try Again...</h1>
         </Route>
       </Switch>
     </div>
