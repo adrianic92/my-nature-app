@@ -6,6 +6,7 @@ import About from "./About";
 import NavBar from "./NavBar";
 import New from './New';
 import PlantDetail from './PlantDetail';
+import PlantList from './PlantList';
 
 function App() {
 
@@ -44,11 +45,14 @@ function App() {
     <div>
       <NavBar />
       <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
         <Route exact path="/about">
           <About/>
         </Route>
         <Route exact path="/plants">
-          <Home plants={plants} handleDelete={handleDelete}/>
+          <PlantList plants={plants} handleDelete={handleDelete}/>
         </Route>
         <Route exact path="/new">
           <New addPlant={addPlant}/>

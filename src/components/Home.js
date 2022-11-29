@@ -1,17 +1,16 @@
 import React from "react";
-import PlantList from "./PlantList.js";
+import HomeImages from "./HomeImages";
 
-function Home({plants, handleDelete}) {
+function Home() {
 
     return (
-    <div className="mainParent">
-        <div className="main">
-        <h1 className="mainChild">Pick a Plant</h1>
+    <div className="parentMainGrid">
+        <div className="mainGrid">
+            <HomeImages />  
         </div>
         <div className="main">
-        <h3 className="mainChild">Click on any of the following plant images to learn more about the plant :</h3>
+            <h2 className="mainChild" style={{fontStyle: "italic", fontFamily: "sansSerif"}}>Find a plant that you love</h2>
         </div>
-        <PlantList plants={plants} handleDelete={handleDelete}/>
     </div>
     )
 }

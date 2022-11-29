@@ -39,6 +39,25 @@ html {
     padding: 1rem 1rem;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+
 .mainParent {
     display: block;
 }
@@ -53,6 +72,12 @@ html {
     margin: auto;
     padding: 1rem;
     text-align: center;
+}
+
+.parentMainGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
 }
 
 .grid {
