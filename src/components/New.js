@@ -39,7 +39,7 @@ function New({addPlant}) {
             <h1 className="mainChild">Add a New Plant Here</h1>
         </div>
         <div>
-            <form className="form" onSubmit={handleSubmit}>
+            <form className="centeredParent" onSubmit={handleSubmit}>
                 <label for="name">Name:</label>
                 <input type="text" name="name" className="formChild" value={name} onChange={handleNameChange}/>
                 <label for="image">Image URL:</label>
