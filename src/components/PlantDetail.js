@@ -30,7 +30,7 @@ function PlantDetail() {
     }, [id])
 
     if (!plant) {
-        return <div style={{color: "white", fontSize: "larger"}}>Page Loading</div>
+        return <div className="main error">Page Loading</div>
     }
 
     if (plant === "empty") {
