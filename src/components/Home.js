@@ -8,8 +8,8 @@ function Home() {
         <div className="mainGrid">
             <HomeImages />  
         </div>
-        <div className="main">
-            <h2 className="mainChild" style={{fontStyle: "italic", fontFamily: "sansSerif"}}>Find a plant that you love</h2>
+        <div className="homeRight">
+            <h2 className="homeRightChild">Plants are great!</h2>
         </div>
     </div>
     )

@@ -57,7 +57,7 @@ function App() {
         <Route exact path="/new">
           <New addPlant={addPlant}/>
         </Route>
-        <Route path="/plants/:id">
+        <Route exact path="/plants/:id">
           <PlantDetail />
         </Route>
         <Route path="*">

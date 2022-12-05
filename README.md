@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+This project uses the Pexels API to obtain the images for the main page. Additional URLS for the db.json utilize images from Pexels
+
+563492ad6f917000010000015e824f6c6b1a4d6fa827c1b50d347ebe

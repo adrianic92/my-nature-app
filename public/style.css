@@ -46,16 +46,34 @@ html {
   }
   
   .column {
-    flex: 20%;
-    max-width: 20%;
-    padding: 0 4px;
+    flex: 24%;
+    max-width: 25%;
+    padding: 0 .5%;
   }
   
   .column img {
-    margin-top: 8px;
+    margin-top: .3rem;
     vertical-align: middle;
     width: 100%;
+    object-fit: cover;
+    height: 20%;
   }
+
+.homeRight {
+    color: white;
+    display: grid;
+    margin: auto;
+    
+    font-family: serif;
+    font-style: italic;
+    width: 100%;
+
+}
+
+.homeRightChild {
+    width: 100%;
+    text-align: center;
+}
 
 
 .mainParent {
@@ -76,8 +94,13 @@ html {
 
 .parentMainGrid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: auto;
+}
+
+.mainGrid {
+    width: 100%
 }
 
 .grid {
@@ -86,14 +109,15 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     grid-template-columns: repeat(auto-fit, 20rem);
-    grid-row-gap: 3vh;
-    grid-column-gap: 3vh;
+    grid-row-gap: 1vh;
+    grid-column-gap: 2vh;
     margin: auto;
     align-items: center;
     justify-content: center;
 }
 
 .gridChild {
+    margin-top: 1rem;
     text-align: center;
     background-color: rgb(29, 77, 25, 0.5);
     padding: 3vh;
@@ -166,4 +190,8 @@ html {
 
 .delete:hover {
     background-color: hsl(0, 93%, 46%);
+}
+
+.about {
+    
 }

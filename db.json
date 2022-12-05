@@ -1,13 +1,6 @@
 {
   "plants": [
     {
-      "id": 1,
-      "name": "Rose",
-      "image": "https://images.pexels.com/photos/237382/pexels-photo-237382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "fact": "YOU CAN EAT ROSES. Who knew looking pretty in a vase wasn't the only way to use roses in the kitchen? Their petals are edible and rose water (made from soaking the petals in water) is often added to jellies or jams, or is used as flavoring in Indian and Chinese dishes. Roses also grow a berry-shaped fruit called rose hips. The fruit can be orange, red, dark purple, or even black. Rose hips are packed with vitamin C and can be used in cocktails or dried to create a refreshing tea.",
-      "description": "Roses are erect, climbing, or trailing shrubs, the stems of which are usually copiously armed with prickles of various shapes and sizes, commonly called thorns. The leaves are alternate and pinnately compound (i.e., feather-formed), usually with oval leaflets that are sharply toothed."
-    },
-    {
       "id": 2,
       "name": "Sunflower",
       "image": "https://images.pexels.com/photos/33044/sunflower-sun-summer-yellow.jpg",
@@ -22,24 +15,24 @@
       "description": "Most members of the genus have a rosette of leaves borne either at ground level or at the end of a stem. The leaves are usually succulent and fleshy and commonly have sharp toothed edges. Certain aloe species retain dense dead leaves around their stems to serve as insulation against the heat of wildfires. The tubular flowers range in colour from white to yellow to red."
     },
     {
-      "name": "Mother-in-Law’s Tongue",
+      "name": "Mother-in-Law's Tongue",
       "image": "https://images.pexels.com/photos/2123482/pexels-photo-2123482.jpeg",
       "fact": "Snake Plant Is Not Cactus. SansevieriaTrifasciata is not a cactus; however, it does belong to the succulent family. Many people tend to confuse it with a cactus due to its appearance. The leaves of the plant are thick and fleshy, which makes it resemble a cactus. In fact, the snake plant has the same structure as aloe vera, jade plant, and agave plants. The plant also has care requirements that almost resemble those of cacti.",
-      "description": "Mother-in-law’s tongue, or snake plant (Dracaena trifasciata, formerly Sansevieria trifasciata), is a popular houseplant with yellow-striped leaves and tiny pale green scented flowers. It is sometimes sold as Sansevieria.",
+      "description": "Mother-in-law's tongue, or snake plant (Dracaena trifasciata, formerly Sansevieria trifasciata), is a popular houseplant with yellow-striped leaves and tiny pale green scented flowers. It is sometimes sold as Sansevieria.",
       "id": 4
     },
     {
       "name": "Daisy",
       "image": "https://images.pexels.com/photos/45901/oxeye-daisy-flower-ox-eye-white-45901.jpeg",
       "fact": "Their Name Means \"Day's Eye\" Daisy comes from the Old English \"daes eage,\" meaning \"day's eye.\" The name refers to the way they close their petals in the evening, and open again at dawn, marking the beginning of a new day.",
-      "description": "The name daisy commonly denotes the oxeye daisy (Leucanthemum vulgare), the Shasta daisy (L. ×superbum), and the English, or true, daisy (Bellis perennis). These and other plants called daisies are distinguished by a composite flower head composed of 15 to 30 white ray flowers surrounding a centre consisting of bright yellow disk flowers, though other colour combinations are common.",
+      "description": "The name daisy commonly denotes the oxeye daisy (Leucanthemum vulgare), the Shasta daisy (L. xsuperbum), and the English, or true, daisy (Bellis perennis). These and other plants called daisies are distinguished by a composite flower head composed of 15 to 30 white ray flowers surrounding a centre consisting of bright yellow disk flowers, though other colour combinations are common.",
       "id": 5
     },
     {
       "name": "Lily",
       "image": "https://images.pexels.com/photos/65031/pexels-photo-65031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "fact": "Lilies have large petals that can be white, yellow, orange, red, purple or pink in color. They can even have freckles! In fact, the Tiger Lily is named for its orange with brown spots.",
-      "description": "The true lilies are erect perennial plants with leafy stems, scaly bulbs, usually narrow leaves, and solitary or clustered flowers. The flowers consist of six petal-like segments, which may form the shape of a trumpet, with a more or less elongated tube, as in the Madonna lily (Lilium candidum) and Easter lily (L. longiflorum). Alternatively, the segments may be reflexed (curved back) to form a turban shape, as in the Turk’s cap lily (L. martagon), or they may be less strongly reflexed and form an open cup or bowl shape, as in the wood lily (L. philadelphicum) and goldband lily (L. auratum). The flowers of some species are quite fragrant, and they occur in a wide variety of colours. Plants of most species range in height from 30 to 120 cm (1 to 4 feet); plants of certain species, however, exceed 2.5 metres (8 feet) in height.",
+      "description": "The true lilies are erect perennial plants with leafy stems, scaly bulbs, usually narrow leaves, and solitary or clustered flowers. The flowers consist of six petal-like segments, which may form the shape of a trumpet, with a more or less elongated tube, as in the Madonna lily (Lilium candidum) and Easter lily (L. longiflorum). Alternatively, the segments may be reflexed (curved back) to form a turban shape, as in the Turk's cap lily (L. martagon), or they may be less strongly reflexed and form an open cup or bowl shape, as in the wood lily (L. philadelphicum) and goldband lily (L. auratum). The flowers of some species are quite fragrant, and they occur in a wide variety of colours. Plants of most species range in height from 30 to 120 cm (1 to 4 feet); plants of certain species, however, exceed 2.5 metres (8 feet) in height.",
       "id": 6
     },
     {

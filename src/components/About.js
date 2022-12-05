@@ -3,8 +3,10 @@ import React from "react";
 function About() {
   return (
     <div>
-        <div className="main">
-            <h1 className="mainChild">This is my about component!</h1>
+        <div className="form">
+            <h1>ABOUT</h1>
+            <br/>
+            <h2>Thank you for visiting my plant page!</h2>
         </div>
     </div>
   )
