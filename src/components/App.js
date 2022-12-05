@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import '../App.css';
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useHistory } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import NavBar from "./NavBar";
@@ -9,7 +9,7 @@ import PlantDetail from './PlantDetail';
 import PlantList from './PlantList';
 
 function App() {
-
+  const history = useHistory();
   const [plants, setPlants] = useState([])
   
   useEffect(() => {
@@ -27,7 +27,10 @@ function App() {
       body: JSON.stringify(plant)
     })
     .then(resp => resp.json())
-    .then(data => setPlants([...plants, data]))
+    .then(data => {
+      setPlants([...plants, data])
+      history.push(`/plants/${data.id}`)
+    })
   }
 
   function handleDelete(id) {
