@@ -227,3 +227,10 @@ html {
 .delete:hover {
     background-color: hsl(0, 93%, 46%);
 }
+
+.error {
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    text-align: center;
+}
