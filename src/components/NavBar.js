@@ -16,13 +16,13 @@ function NavBar() {
           </Link>
         </li>
         <li className="link">
-          <Link to="/about">
-            About
+          <Link to="/new">
+            Add A Plant
           </Link>
         </li>
         <li className="link">
-          <Link to="/new">
-            Add A Plant
+          <Link to="/about">
+            About
           </Link>
         </li>
     </ul>
