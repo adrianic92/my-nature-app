@@ -34,7 +34,7 @@ function PlantDetail() {
     }
 
     if (plant === "empty") {
-        return <h1 className='main error'>Oops!!!<br/>404 NOT FOUND!<br/>Try Again...</h1>
+        return <h1 className='main error'>Oops!!!<br/>404 NOT FOUND!<br/>Plant does not exist!</h1>
     }
 
     
