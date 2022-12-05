@@ -3,7 +3,12 @@ import { useParams } from 'react-router-dom'
 
 function PlantDetail() {
     const [plant, setPlant] = useState(null)
+    const [clicked, setClicked] = useState(true)
     const {id} = useParams()
+
+    function handleClick() {
+        setClicked(clicked => !clicked)
+    }
 
     useEffect( () => {
         fetch(`http://localhost:3004/plants/${id}`)
@@ -37,7 +42,7 @@ function PlantDetail() {
     return (
         <div className="main">
             <div className="mainChild">
-                <img className="plantImage" src={image} alt={name}/>
+                <img className={clicked ? "plantImage" : "largePlantImage"} src={image} alt={name} onClick={handleClick}/>
                 <h2>{name}</h2>
                 <h3>Fun Fact: {fact}</h3>
                 <h3>Description: {description}</h3>

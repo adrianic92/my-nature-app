@@ -48,6 +48,13 @@
       "fact": "Orchids are the largest family of flowering plants. With more than 25,000 species, there are more orchids on the planet than mammals and birds!",
       "description": "These nonwoody perennial plants are generally terrestrial or epiphytic herbs (i.e., growing on other plants rather than rooted in soil). Those attached to other plants often are vinelike and have a spongy root covering called the velamen that absorbs water from the surrounding air. Most species manufacture their own food, but some live on dead organic material (saprophytic) or are helped to obtain nourishment by a fungus living in their roots.",
       "id": 8
+    },
+    {
+      "name": "Anthurium",
+      "image": "https://images.pexels.com/photos/7095894/pexels-photo-7095894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "fact": "The Colorful Heart-Shape is Not A Flower.\nThough it looks like a waxy bloom, it is actually a spathe, or shield-like leaf. Its function is to protect the spadix, which contains several tiny flowers when in bloom. The spathe can come in many colors, such as pink, orange and white.",
+      "description": "Anthurium species can grow terrestrially or as epiphytes on other plants. The inflorescence, commonly called the flower, consists of a colourful shiny leathery spathe surrounding or subtending a central rodlike spadix that bears numerous tiny bisexual flowers. The leaves are somewhat leathery and variable in shape. The plants contain calcium oxalate crystals and are considered poisonous. Because anthuriums require warm temperatures and high humidity, they are usually grown under greenhouse conditions.",
+      "id": 9
     }
   ]
 }

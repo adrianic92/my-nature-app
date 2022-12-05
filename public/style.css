@@ -47,7 +47,7 @@ html {
   
   .column {
     flex: 24%;
-    max-width: 25%;
+    max-width: 25vw;
     padding: 0 .5%;
   }
   
@@ -56,7 +56,7 @@ html {
     vertical-align: middle;
     width: 100%;
     object-fit: cover;
-    height: 20%;
+    height: 17vh;
   }
 
 .homeRight {
@@ -137,6 +137,15 @@ html {
     border-style: dotted;
 }
 
+.largePlantImage {
+    max-width: 30rem;
+    max-height: 30rem;
+    align-items: center;
+    border-radius: 10%;
+    border: rgb(255, 215, 0, 0.5);
+    border-style: dotted;
+}
+
 .form {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
@@ -148,6 +157,14 @@ html {
 
 .form label {
     text-align: center;
+}
+
+.child {
+    text-align: center;
+    max-width: 50rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .formChild {
@@ -190,8 +207,4 @@ html {
 
 .delete:hover {
     background-color: hsl(0, 93%, 46%);
-}
-
-.about {
-    
 }
