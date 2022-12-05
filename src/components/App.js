@@ -64,7 +64,7 @@ function App() {
           <PlantDetail />
         </Route>
         <Route path="*">
-          <h1 className='main' style={{justifyContent: "center", alignItems: "center", fontSize: "7rem", textAlign: "center"}}>Oops!!! <br/>404 NOT FOUND! <br/>Try Again...</h1>
+          <h1 className='main error'>Oops!!! <br/>404 NOT FOUND! <br/>Try Again...</h1>
         </Route>
       </Switch>
     </div>
