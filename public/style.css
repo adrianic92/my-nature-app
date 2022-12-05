@@ -167,6 +167,24 @@ html {
     margin: auto;
 }
 
+.aboutImage {
+    padding: 15vh 0vw;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    height: 10vh;
+    animation: rotation 10s infinite linear
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
 .formChild {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 1rem auto;
@@ -191,6 +209,7 @@ html {
   text-align: center;
   min-width: 20vw;
 }
+
 
 .button:hover {
     background-color: rgb(29, 77, 25);
