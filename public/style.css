@@ -22,7 +22,7 @@ html {
 
 .link {
     float: left;
-    color: white;
+    color: gold;
     text-align: center;
     padding: 1rem 5vw;
     text-decoration: none;
@@ -60,7 +60,7 @@ html {
   }
 
 .homeRight {
-    color: white;
+    color: gold;
     display: grid;
     margin: auto;
     
