@@ -170,11 +170,11 @@ html {
 }
 
 .aboutImage {
-    padding: 15vh 0vw;
+    padding: 10vh 0vw;
     align-content: center;
     justify-content: center;
     margin: auto;
-    height: 10vh;
+    height: 12vh;
     animation: rotation 10s infinite linear
 }
 
