@@ -126,7 +126,7 @@ html {
     border: rgb(255, 215, 0, 0.5);
     border-style: solid;
     height: 20rem;
-
+    position: relative;
 }
 
 .plantImage {
@@ -223,10 +223,33 @@ html {
 }
 
 .delete {
-    min-width: 1vw;
+    background-color: rgb(29, 77, 25, 0.5);
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 1rem;
+    color: #fff;
+    font-size: larger;
+    bottom: 0;
+    right: 1rem;
+    position: absolute;
+}
+
+.info {
+    background-color: rgb(29, 77, 25, 0.5);
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 1rem;
+    color: #fff;
+    font-size: larger;
+    bottom: 0;
+    left: 1rem;
+    position: absolute;
+    text-decoration: none;
 }
 
 .delete:hover {
+    background-color: hsl(0, 93%, 46%);
+}
+
+.info:hover {
     background-color: hsl(0, 93%, 46%);
 }
 
