@@ -1,3 +1,37 @@
+# Adrian's Nature App
+
+Welcome to my plant application! Thanks for stopping by. A little bit about this application... Users can see a list of all of the different plants we currently have available by clicking on the Plants link above.
+
+If you would like to add a plant, visit the Add A Plant section by clicking the above link. A form will be displayed, allowing you to add information about the new plant, including the name, image, description, and fun fact.
+
+We are in need of some more plants.
+
+Images were found via the Pexels website (pexels.com).
+
+## Requirements
+- Stable Internet Connection
+- Recommended Browser: Google Chrome
+- Have Node.js installed
+
+## Installation Instructions
+- Fork and Clone this repository
+- On your terminal, run 'npm install', then run 'npm run server'
+- On a different terminal, run 'npm start'
+
+## Features
+- Homepage displays an introduction page with photos of plants
+- Use the Navigation Bar at the top of the page to navigate through the application.
+- View plants in the "Plants" section.
+    - In the "Plants" section, the option is available to view more info about each plant.
+    - There is also an option to delete the plant from the collection of plants.
+- Add new plants by navigating to the "Add New Plant" section and filling out the form with the appropriate information.
+
+## Credits
+- Pexels - pexels.com
+- Flatiron School
+
+<br/><br/><br/><br/><br/><br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
