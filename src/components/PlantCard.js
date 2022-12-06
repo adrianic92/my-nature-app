@@ -8,12 +8,10 @@ function PlantCard({plant, handleDelete}) {
     }
 
     return (
-        <div className="gridChild">
-            <img className="plantImage" src={plant.image} alt={plant.name} />
-            <h2>{plant.name}</h2>
-            <button className="button delete" onClick={handleClick}>🔥Remove🔥</button>
+        <div className="gridChild" style={{ backgroundImage: `url(${plant.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <button className="delete" onClick={handleClick}>🔥Remove🔥</button>
             <br />
-            <Link className="button" to={`/plants/${plant.id}`}>⭐More Info⭐</Link>
+            <Link className="info" to={`/plants/${plant.id}`}>⭐More Info⭐</Link>
         </div>
     )
 }
