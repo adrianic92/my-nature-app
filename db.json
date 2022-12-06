@@ -55,6 +55,34 @@
       "fact": "The Colorful Heart-Shape is Not A Flower.\nThough it looks like a waxy bloom, it is actually a spathe, or shield-like leaf. Its function is to protect the spadix, which contains several tiny flowers when in bloom. The spathe can come in many colors, such as pink, orange and white.",
       "description": "Anthurium species can grow terrestrially or as epiphytes on other plants. The inflorescence, commonly called the flower, consists of a colourful shiny leathery spathe surrounding or subtending a central rodlike spadix that bears numerous tiny bisexual flowers. The leaves are somewhat leathery and variable in shape. The plants contain calcium oxalate crystals and are considered poisonous. Because anthuriums require warm temperatures and high humidity, they are usually grown under greenhouse conditions.",
       "id": 9
+    },
+    {
+      "name": "Jasmine",
+      "image": "https://images.pexels.com/photos/6192686/pexels-photo-6192686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "fact": "Jasmine can live from 15 up to 20 years in the wild",
+      "description": "Most true jasmines have climbing branches without tendrils. The white, yellow, or rarely pink flowers are tubular with a flaring, lobed, pinwheel-like form; some double-flowered varieties have been developed. The leaves can be evergreen or deciduous and usually are composed of two or more leaflets, although some species have simple leaves. The fruit in most species is a two-lobed black berry.",
+      "id": 10
+    },
+    {
+      "name": "Iris",
+      "image": "https://images.pexels.com/photos/2471455/pexels-photo-2471455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "fact": "It takes its name from the Greek word for a rainbow, which is also the name for the Greek goddess of the rainbow, Iris.",
+      "description": "Irises are either bulbous or rhizomatous (with thick creeping underground stems). In species with a rhizome, the stem is usually horizontal, robust, and ringed with leaf scars. It often grows partially exposed but is firmly rooted in the soil. Species of Iris native to southwestern Europe generally produce bulbs. This type of stem is short and conical, and from it many leaf bases arise, one inside the other. These bases are seamless and constitute the bulk of the bulb. Bulblets arise from the stem, between the leaf bases, to propagate the plant.",
+      "id": 11
+    },
+    {
+      "name": "Prickly Pear (Nopal)",
+      "image": "https://images.pexels.com/photos/4167449/pexels-photo-4167449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "fact": "Prickly pears have edible fruit known as ‘cactus fruit’, ‘cactus fig’, ‘Indian fig’ and ‘tuna’, and are mainly red in colour, although other varieties include yellowy orange and green, and are high in Vitamin C.",
+      "description": "The prickly pear, also called nopal, any of several species of flat-stemmed spiny cacti of the genus Opuntia (family Cactaceae) and their edible fruits. Prickly pear cacti are native to the Western Hemisphere. Several are cultivated, especially the Indian fig (O. ficus-indica), which is an important food for many peoples in tropical and subtropical countries.",
+      "id": 12
+    },
+    {
+      "name": "Willow Tree",
+      "image": "https://images.pexels.com/photos/2927522/pexels-photo-2927522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "fact": "Raindrops that are falling to the ground from the drooping branches of willow resemble tears. That is how weeping willow got its name.",
+      "description": "Willow, shrubs and trees of the genus Salix, family Salicaceae, mostly native to north temperate areas and valued for ornament, shade, erosion control, and timber. Salicin, source of salicylic acid used in pain relievers, is derived from certain willows. All species have alternate, usually narrow leaves and catkins, male and female on separate trees; the seeds have long, silky hairs.",
+      "id": 13
     }
   ]
 }
